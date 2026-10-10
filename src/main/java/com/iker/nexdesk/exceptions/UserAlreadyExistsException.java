@@ -1,0 +1,7 @@
+package com.iker.nexdesk.exceptions;
+
+public class UserAlreadyExistsException extends RuntimeException {
+    public UserAlreadyExistsException(String message) {
+        super(message);
+    }
+}
